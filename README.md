@@ -3,7 +3,7 @@
 ## Description
 Easy to use proc-macro to "merge" two instances of the same type.
 
-I came accross a few cases where I needed to merge two instances of the same type, or more specifically, replace the fields in a source instance with the fields containing a value in a second instance (fields set to `Some(thing)` or fields not wrapped in an `Option`).
+I encountered a few cases where I needed to merge two instances of the same type, or more specifically, replace the fields in a source instance with the fields containing a value in a second instance (fields set to `Some(thing)` or fields not wrapped in an `Option`).
 
 Fields set to `None` in the second instance are left untouched in the source instance.
 
