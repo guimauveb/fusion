@@ -33,6 +33,7 @@ let update = Foo {
     b: Some(8),
     c: "Two".into(),
 };
+
 src.merge(update);
 assert_eq!(
     src,

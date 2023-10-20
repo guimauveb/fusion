@@ -33,6 +33,7 @@ use {
 ///     b: Some(8),
 ///     c: "Two".into(),
 /// };
+///
 /// src.merge(update);
 /// assert_eq!(
 ///     src,
@@ -135,6 +136,7 @@ pub fn merge(input: TokenStream) -> TokenStream {
             ///     b: Some(8),
             ///     c: "Two".into(),
             /// };
+            ///
             /// src.merge(update);
             /// assert_eq!(
             ///     src,
